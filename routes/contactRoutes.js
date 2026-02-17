@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const express = require('express');
 const router = express.Router();
-const Contact = require('../models/Contact'); // Make sure filename case matches
+const Contact = require('../models/contact'); // Make sure filename case matches
 
 // =======================
 // PUBLIC ROUTE - Save Message
